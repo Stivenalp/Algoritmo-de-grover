@@ -1,0 +1,12 @@
+name: grover-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - qiskit>=0.45
+      - qiskit-aer
+      - jupyterlab
+      - ipykernel
+      - matplotlib
