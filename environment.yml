@@ -1,0 +1,16 @@
+name: .tesis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.10
+  - pip
+  - pip:
+      - qiskit==1.2.4
+      - qiskit-aer==0.14.2
+      - qiskit-ibm-runtime==0.22.0
+      - matplotlib==3.8.4
+      - numpy
+      - ipykernel==6.29.5
+      - jupyterlab==4.0.13  # Actualizado para compatibilidad con Jupyter 1.0.0 ecosystem
+      - pylatexenc==2.10
+      - scipy  # Opcional para cálculos numéricos en análisis (e.g., asin)
