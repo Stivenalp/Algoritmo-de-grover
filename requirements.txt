@@ -1,9 +1,10 @@
 ipykernel==6.29.5  # Jupyter kernel para ejecución interactiva
 jupyter==1.0.0     # Entorno notebook para desarrollo
 matplotlib==3.8.4  # Plots (histograma, density matrix en Parte 3)
-numpy              # Arrays numéricos (análisis p_s, rangos en plot)
+numpy== 2.3.4             # Arrays numéricos (análisis p_s, rangos en plot)
 pylatexenc==2.10   # Render LaTeX en plots (opcional para títulos matemáticos)
-qiskit==1.2.4      # Core: circuitos, registers, compose, measure (Partes 2-3)
-qiskit-aer==0.14.2 # Simulador Aer (statevector, density matrix en Parte 3)
-qiskit-ibm-runtime==0.22.0  # Runtime para IBM hardware (opcional, transpile en Parte 3)
+qiskit==2.2.1      # Core: circuitos, registers, compose, measure (Partes 2-3)
+qiskit-aer==0.17.2 # Simulador Aer (statevector, density matrix en Parte 3)
+qiskit-ibm-runtime==0.43.0  # Runtime para IBM hardware (opcional, transpile en Parte 3)
+
 scipy              # Opcional: Optimización numérica (asin en k cálculo, futuras sim noise)
