@@ -2,7 +2,7 @@
 Aplicación del algoritmo de grover en búsquedas no estructuradas: análisis y comparación de la eficiencia de algoritmos de búsqueda con algoritmos cuánticos.
 # Notebook gover_busqueda_ibm_brisbane.ipynb
 
-Este es el notebook principal de la investigación, dado que se estructura el diseño del oraculo con el simulador Aer, para los primeros ejercicios se le brinda al oráculo el dato de antemano y después se oculta en una función, se valida que encuentre el target objetivo y los amplifique adecuadamente. Una vez verificado la funcion, se realiza despues todo el diseño del circuito cuántico usando las compuertas para ibm_brisbane, de igual forma, se realizan una serie experimentos con tal de validar paso a paso el circuito.
+Este es el notebook principal de la investigación, dado que se estructura el diseño del oraculo con el simulador Aer, para los primeros ejercicios se le brinda al oráculo el dato de antemano y después se oculta en una función, se valida que encuentre el target objetivo y los amplifique adecuadamente. Una vez verificada la funcion, se realiza despues todo el diseño del circuito cuántico usando las compuertas para ibm_brisbane, de igual forma, se realizan una serie experimentos con tal de validar paso a paso el circuito.
 
 El notebook tiene varios experimentos los cuales permitieron validar errores, mejorar inconsistencias, cambiar estructura, ver resultados, agregar o quitar parámetros, usar diferentes parámetros, probar con cantidades diferentes de qubits, contectar con computadora cuántica ibm_brisbane y el entorno IBM Cloud, se dejo lo más relevante y que puede ayudar a mejor entendimiento de como utilizar estos experimentos para futuras validaciones de la investigación.
 
@@ -21,5 +21,6 @@ Todas las instalaciones necesarias de las librerias que necesitan los desarrollo
 
 # environment.yml
 Todas las instalaciones necesarias de las librerias, al menos las más importantes con sus versiones que necesitan los desarrollos de los notebooks principales para la investigación
+
 
 
